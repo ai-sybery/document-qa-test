@@ -5,7 +5,7 @@ import PyPDF2
 from docx import Document
 
 # Настройка API ключа - ЗАМЕНИТЕ НА СВОЙ КЛЮЧ
-api_key = "AIzaSyCJy8Mh3MDuQy3FxI11PxO5UBhe-sczgdA"
+api_key = st.secrets["GOOGLE_API_KEY"]
 
 # Конфигурация клиента
 genai.configure(api_key=api_key)
